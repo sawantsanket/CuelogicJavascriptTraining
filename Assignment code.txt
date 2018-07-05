@@ -1,0 +1,56 @@
+Date Manipulation ===================>
+
+var tDate = new Date();
+console.log(tDate.getDate());
+
+var tDay = tDate.getDay();
+var dayList = ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is: "+ dayList[tDay]);
+
+var tFormat = (tDate.getHours()>12)?"PM":"AM";
+var tTime = tDate.getHours() +":"+tDate.getMinutes()+":"+tDate.getSeconds()+" "+tFormat;
+console.log("Time is: " +tTime);
+
+function printCurrentPage(){
+  window.print();
+}
+
+var today = new Date();
+var dd = today.getDate();
+
+var mm = today.getMonth()+1; 
+var yyyy = today.getFullYear();
+if(dd<10) 
+{
+    dd='0'+dd;
+} 
+
+if(mm<10) 
+{
+    mm='0'+mm;
+} 
+today = mm+'-'+dd+'-'+yyyy;
+console.log(today);
+today = mm+'/'+dd+'/'+yyyy;
+console.log(today);
+today = dd+'-'+mm+'-'+yyyy;
+console.log(today);
+
+Rotate the string 'w3resource' in right direction by periodically 
+removing one letter from the end of the string and attaching it to the front.===================>
+
+function animate_string(id) 
+{
+    var element = document.getElementById(id);
+    var textNode = element.childNodes[0]; // assuming no other children
+    var text = textNode.data;
+
+setInterval(function () 
+{
+ text = text[text.length - 1] + text.substring(0, text.length - 1);
+  textNode.data = text;
+}, 500);
+}
+
+
+

@@ -1,0 +1,36 @@
+Day 1
+What is JavaScript? How is JavaScript different from other scripting languages?
+Loosely Typed Language vs. Strictly Typed Language, Automatic Type Conversion
+Values - Numbers, Number Methods, Strings, String Methods, Boolean, Undefined Value
+Operators - Assignment Operators, Comparison Operators, Boolean Operators, String Operators, Ternary Operator, Arithmetic Operators, “typeof” Operator, “delete” Operator
+Whitespace, Line Breaks, Semicolons, Case Sensitivity, Single-line Comments, Multi-line Comments
+Reserved Words - break case catch class const continue default delete do else enum export extends false finally for function if implements import in instanceof interface let new null package private protected public return static super switch this throw true try typeof var void while
+If Statement, If-Else Statement, If-ElseIf Statement, While Loop, Do-While Loop, While-Do Loop, For Loop, For-In Loop, Break Statement, Continue Statement, Switch Statement, Return Statement
+Document Object Model (DOM), Window Object, Location Object, History Object
+Evaluation task for the day
+Functions - Function Definition/Declaration, Parameters, Global Scope, Local Scope, Return Values, Functions as Values, Recursive Functions, “arguments” Parameter, Function Invocation Types
+Arrays - What is an Array?, Creating an Array, Using “new” to create an Array, Access the Elements of an Array, Arrays are Objects, “length” Property, Looping Array Elements, Multidimensional Arrays, Is an Associative Array Supported?, Array Methods - push(), pop(), shift(), unshift(), slice(), splice(), sort(), reverse(), concat(), valueOf(), toString(), forEach(), indexOf(), join(), map()
+Math Object, Math Object Properties, Math Object Methods
+Date Object, Date Object Properties, Date Object Methods.
+Evaluation task for the day
+
+Day 2
+
+Objects - Object Literals, Object Mutability, Comparing Objects, “Object.create()” Method, “Object.keys()” Method, “Object.values()” Method
+Prototype - Object’s “prototype” Property (Object.prototype), “Object.prototype.constructor“ Property, “Object.prototype.hasOwnProperty()” Method, “instanceof” Operator
+Evaluation task for the day
+Exception Handling, Try /Catch / Throw / Finally Statements, Custom Exceptions
+JavaScript Regular Expressions, Modifiers, Brackets, Metacharacters, Quantifiers, RegExp Object Properties, RegExp Object Methods
+Hoisting, Strict Mode using "use strict" Directive, Console Object & Functions
+JavaScript Object Notation (JSON), JSON Literal, “application/json” MIME Type, “eval()” Function, “JSON.parse()” Function, “JSON.stringify()” Function, JSON vs. XML vs. YAML vs. BSON vs. JSONP
+Copy By Value vs. Copy By Reference, Primitive Data Types vs. Complex Data Types (Objects)
+Evaluation task for the day
+
+Day 3
+Closure, Lexical Scope
+Callbacks, Callback Hell, Promises   
+Asynchronous Programming, Events, Web Workers
+Immediately-Invoked Function Expression (IIFE), The Module Pattern, The Revealing Module Pattern
+“this” in Functions
+JavaScript Design Patterns
+Evaluation task for the day
