@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/Javascript.js"></script>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body onload="onLoadUserDetails(false)">
+<br/>
+    <div class="border container" style="padding:10px; " id="userRegistration">
+        <h3>User registration</h3>
+        <form>
+			<div class="form-group row"> 
+				<label class="col-sm-2 col-form-label">First Name:</label>
+				<div class="col-sm-6 ">
+					<input class="form-control" type="text" id="firstName" />
+				</div>
+			</div>
+			<div class="form-group row"> 
+				<label class="col-sm-2 col-form-label">Last Name:</label>
+				<div class="col-sm-6 ">
+					<input class="form-control" type="text" id="lastName" />
+				</div>
+			</div>
+			<div class="form-group row"> 
+				<label class="col-sm-2 col-form-label">Email Id:</label>
+				<div class="col-sm-6 ">
+					<input class="form-control" type="text" id="emailId" />
+				</div>
+			</div>
+			<div class="form-group row"> 
+				<label class="col-sm-2 col-form-label">Username:</label>
+				<div class="col-sm-6 ">
+					<input class="form-control" type="text" id="userName" />
+				</div>
+			</div>
+			<div class="form-group row"> 
+				<label class="col-sm-2 col-form-label">Gender:</label>
+				<div class="col-sm-6 ">
+					<input type="radio" id="rdMale" name="gender" />
+					<label>Male</label>
+					<br />
+					<input type="radio" id="rdFemale" name="gender" />
+					<label>Female</label>
+				</div>
+			</div>
+			<div class="form-group row"> 
+				<label class="col-sm-2 col-form-label">Address:</label>
+				<div class="col-sm-6 ">
+					<input class="form-control" type="text" id="address" />
+				</div>
+			</div>
+			<input class="btn btn-primary" type="submit" name="btnUserSubmit" value="Submit" id="btnUserSubmit" onclick="addUser()"/>
+			<br/>
+		</form>
+	</div>
+		<!-- <form> -->
+            <!-- <table> -->
+                
+                <!-- <tr class="form-group"> -->
+                    <!-- <td>Email Id:</td> -->
+                    <!-- <td><input type="text" id="emailId" /></td> -->
+                <!-- </tr> -->
+                <!-- <tr class="form-group"> -->
+                    <!-- <td>Username:</td> -->
+                    <!-- <td><input type="text" id="userName" /></td> -->
+                <!-- </tr> -->
+                <!-- <tr class="form-group"> -->
+                    <!-- <td>Gender:</td> -->
+                    <!-- <td> -->
+                        <!-- <input type="radio" id="rdMale" name="gender" /> -->
+                        <!-- <label>Male</label> -->
+                        <!-- <br /> -->
+                        <!-- <input type="radio" id="rdFemale" name="gender" /> -->
+                        <!-- <label>Female</label> -->
+                    <!-- </td> -->
+                <!-- </tr> -->
+                <!-- <tr class="form-group"> -->
+                    <!-- <td>Address:</td> -->
+                    <!-- <td><input type="text" id="address" /></td> -->
+                <!-- </tr> -->
+            <!-- </table> -->
+        <!-- </form> -->
+        
+    
+    <br />
+    <br />
+    <div id="userDetailsResult" class="container-fluid border round border-info" style="margin:15px; padding:10px;"></div>
+	<input class="btn btn-primary" style="margin:15px; padding:10px;" type="submit" name="btnUserEdit" value="Go To Edit" id="btnUserEdit" onclick="redirectToEditUser()"/>
+	
+	<br/>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+	<script src="js/Javascript.js"></script>
+	<style>
+		body {background-color:#dcdcdc; 
+				width:100%; 
+				justify-content:center; 
+				padding:15px;
+				display: -webkit-flex;
+				}
+				
+		.login {display:block;    
+				width: 390px;
+				background: #fff;
+				border-radius: 10px;
+				padding: 77px 55px 33px 55px;
+				text-align : center;
+				box-shadow: 0 5px 10px 0px;
+				}
+		h2 {margin-bottom : 50px;}
+		input[type="text"] {
+		    border: 0px;
+			border-bottom: 2px solid #adadad;
+			margin-bottom: 37px;
+			width:100%;
+		}
+		input[type="text"]:focus{
+			outline:none;
+			border-bottom: 2px solid #31b0d5;
+		}
+		
+		input[type="password"] {
+		    border: 0px;
+			border-bottom: 2px solid #adadad;
+			margin-bottom: 37px;
+			width:100%;
+		}
+		input[type="password"]:focus{
+			outline:none;
+			border-bottom: 2px solid #31b0d5;
+		}
+		
+		.txt1 {
+			font-size: 13px;
+			color: #666666;
+			line-height: 1.5;
+		}
+		.p-t-115 {
+			padding-top: 90px;
+		}
+		
+		.btnLogin{
+			border-radius:30px;
+			height:50px;
+			width:100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="login">
+		<h2> Login </h2>
+		<span class="">Email / Username</span>
+		<br/>
+		<br/>
+		<input type="text" id="loginId"/>
+		<br/>
+		<span class="">Password</span>
+		<br/>
+		<br/>
+		<input type="password" id="loginPassword"/>
+		<br/>
+		<input type="submit" class="btnLogin btn btn-success" type="submit" value="Login"/>
+		<br/>
+		<div class="p-t-115">
+			<span class="txt1"> Don’t have an account?
+			</span>
+			<a onclick="redirectToRegistration()">Sign Up!</a>
+		</div>
+	</div>
+</body>
+</html>
