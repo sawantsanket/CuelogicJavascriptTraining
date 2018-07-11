@@ -49,7 +49,7 @@ function redirectToEditUser(){
 	window.location="file:///D:/Sanket/Training/Javascript/Javascript%20App/UserProfile.html";
 }
 
-function toDoListRedirect(){
+function redirectToDoList(){
 	window.location="file:///D:/Sanket/Training/Javascript/Javascript%20App/ToDoList.html";
 }
 
@@ -270,4 +270,19 @@ function sortTable(header){
 	
 	
 	loadToDoListTable();
+}
+
+function login(){
+	var loginId = document.getElementById('loginId').value;
+	var loginPassword = document.getElementById('loginPassword').value;
+	var isFound = false;
+	
+	usersDetails.find( user => { if ((user.username === loginId)||(user.email===loginId)){
+											isFound = true;
+										}
+								});
+	
+	if(isFound){
+		redirectToEditUser();
+	}
 }
